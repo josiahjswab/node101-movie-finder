@@ -8,7 +8,7 @@ const app = express();
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-  res.send('Hello Movie Person')
+  res.send('Hello Movie Person: type /movie/tt3896198 into the url or /movieInfo/baby%20driver')
 })
 
 var cache = {};
