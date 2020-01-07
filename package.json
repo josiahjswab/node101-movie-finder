@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test --exit",
-    "start": "node server/index.js"
+    "start": "npm run build && node server/index.js",
+    "build": ""
+
   },
   "author": "",
   "license": "ISC",
